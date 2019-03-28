@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".ServiceOrStudyActivity">
+
+    <TextView
+        android:id="@+id/txt_question_looking_for_second_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/what_search"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginBottom="30sp"
+        />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignBottom="@+id/txt_question_looking_for"
+        >
+
+        <Button
+            android:id="@+id/btn_learn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_learn"
+            android:layout_centerHorizontal="true"
+            android:background="@color/btn_color"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20sp"
+            android:padding="20sp"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            />
+
+        <Button
+            android:id="@+id/btn_search_worker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_offer_service"
+            android:width="180sp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/btn_color"
+            android:textColor="@color/white"
+            android:padding="20sp"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

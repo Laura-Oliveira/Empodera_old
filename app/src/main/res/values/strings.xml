@@ -3,4 +3,6 @@
     <string name="what_search">O que está procurando?</string>
     <string name="btn_offer_job">Oferecer trabalho</string>
     <string name="btn_search_person">Buscar trabalhad@r</string>
+    <string name="btn_learn">Aprenda algo novo</string>
+    <string name="btn_offer_service">Cadastre seu serviço</string>
 </resources>
