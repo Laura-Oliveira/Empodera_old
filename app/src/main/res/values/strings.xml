@@ -1,7 +1,24 @@
 <resources>
     <string name="app_name">Empodera</string>
+
+    <!-- Strings da tela Principal -->
     <string name="what_search">O que está procurando?</string>
     <string name="btn_search_person">Buscar trabalhad@r</string>
     <string name="btn_learn">Aprender algo novo</string>
     <string name="btn_offer_service">Cadastrar seu serviço</string>
+
+    <!-- Strings da tela de Cadastro de Servico -->
+    <string name="txt_title_register_service">Cadastre seu Serviço</string>
+    <string name="txt_name">Nome</string>
+    <string name="txt_surname">Sobrenome</string>
+    <string name="txt_type_service"> Tipo de Serviço </string>
+    <string name="txt_price_service">Preço do Serviço</string>
+    <string name="txt_address"> Seu Endereço</string>
+    <string name="txt_mobility"> Pode ir na casa da pessoa para fazer o serviço?</string>
+    <string name="txt_radio_yes"> Sim</string>
+    <string name="txt_radio_no">Não</string>
+    <string name="txt_price_transport"> Quanto vai gastar de passagem?</string>
+    <string name="txt_phone"> Manda teu telefone ex: (81) 99009-8789</string>
+    <string name="txt_email">Manda teu e-mail ex.: maria@gmail.com</string>
+    <string name="btn_register_service">Cadastrar</string>
 </resources>
