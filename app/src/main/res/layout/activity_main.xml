@@ -32,7 +32,7 @@
             android:id="@+id/btn_offer_job"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btn_offer_job"
+            android:text="@string/btn_offer_service"
             android:layout_centerHorizontal="true"
             android:background="@color/btn_color"
             android:textColor="@color/white"
@@ -40,6 +40,24 @@
             android:padding="20sp"
             android:textStyle="bold"
             android:textSize="14sp"
+            android:onClick="registerService"
+            />
+
+        <Button
+            android:id="@+id/btn_learn_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_learn"
+            android:width="180sp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/btn_color"
+            android:textColor="@color/white"
+            android:padding="20sp"
+            android:layout_marginBottom="20sp"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:onClick="learnSubject"
+
             />
 
         <Button
@@ -54,6 +72,7 @@
             android:padding="20sp"
             android:textStyle="bold"
             android:textSize="14sp"
+            android:onClick="searchWorker"
             />
     </LinearLayout>
 
