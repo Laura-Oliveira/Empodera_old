@@ -1,13 +1,13 @@
 <resources>
     <string name="app_name">Empodera</string>
 
-    <!-- Strings da tela Principal -->
+    <!-- Strings da tela activity_main -->
     <string name="what_search">O que está procurando?</string>
     <string name="btn_search_person">Buscar trabalhad@r</string>
     <string name="btn_learn">Aprender algo novo</string>
     <string name="btn_offer_service">Cadastrar seu serviço</string>
 
-    <!-- Strings da tela de Cadastro de Servico -->
+    <!-- Strings da tela activity_register_service -->
     <string name="txt_title_register_service">Cadastre seu Serviço</string>
     <string name="txt_name">Nome</string>
     <string name="txt_surname">Sobrenome</string>
@@ -18,7 +18,28 @@
     <string name="txt_radio_yes"> Sim</string>
     <string name="txt_radio_no">Não</string>
     <string name="txt_price_transport"> Quanto vai gastar de passagem?</string>
-    <string name="txt_phone"> Manda teu telefone ex: (81) 99009-8789</string>
-    <string name="txt_email">Manda teu e-mail ex.: maria@gmail.com</string>
+    <string name="txt_phone"> Telefone ex: (81) 99009-8789</string>
+    <string name="txt_email">E-mail ex.: maria@gmail.com</string>
     <string name="btn_register_service">Cadastrar</string>
+    
+    <!-- Strings da tela activity_lean_subject -->
+    <string name="txt_title_learn_subject"> Bora Aprender?</string>
+    <string name="link_marmitex">
+        <a href="https://www.mulheresempreendedoras.net.br/como-ganhar-dinheiro-vendendo-marmitex/">Como vender Marmitex?</a>
+    </string>
+    <string name="link_summer">
+        <a href="https://www.mulheresempreendedoras.net.br/ideias-para-ganhar-dinheiro-no-verao/">O que vender no verão?</a>
+    </string>
+
+    <string name="link_brigadeiro">
+        <a href="https://www.mulheresempreendedoras.net.br/como-ganhar-dinheiro-vendendo-brigadeiros/">Vender Brigadeiro</a>
+    </string>
+
+    <string name="link_easter">
+        <a href="https://www.mulheresempreendedoras.net.br/ideias-para-ganhar-dinheiro-na-pascoa/"> Como ganhar dinheiro na Páscoa?</a>
+    </string>
+
+    <string name="link_revenda_produtos">
+        <a href="https://www.mulheresempreendedoras.net.br/produtos-para-revenda-por-catalogo/">Como revender produtos?</a>
+    </string>
 </resources>
