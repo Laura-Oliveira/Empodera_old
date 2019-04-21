@@ -7,6 +7,15 @@
     <string name="btn_learn">Aprender algo novo</string>
     <string name="btn_offer_service">Cadastrar seu serviço</string>
 
+    <!-- Opcoes do checkbox -->
+    <string name="check_cabeleleira">Cabelereira</string>
+    <string name="check_manicure">Manicure</string>
+    <string name="check_pinta_cabelo"> Pinta cabelo</string>
+    <string name="check_cozinheira">Cozinheira</string>
+    <string name="check_boleira">Boleira - doces e salgados</string>
+    <string name="check_faz_pizza"> Faz pizza</string>
+    <string name="check_almoco"> Faz almoço</string>
+
     <!-- Strings da tela activity_register_service -->
     <string name="txt_title_register_service">Cadastre seu Serviço</string>
     <string name="txt_name">Nome</string>

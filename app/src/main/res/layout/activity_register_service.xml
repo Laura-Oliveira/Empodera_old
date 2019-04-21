@@ -35,12 +35,180 @@
             android:hint="@string/txt_surname"
             />
 
-        <EditText
+        <TextView
             android:id="@+id/txt_type_service"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/txt_type_service"
             />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/check_box_lunch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+            <TextView
+                android:id="@+id/check_lunch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/check_almoco"
+                android:textColor="@color/colorPrimary"
+                android:textSize="10pt"
+                android:textStyle="bold"
+                android:layout_marginBottom="8pt"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/check_box_cake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+            <TextView
+                android:id="@+id/check_cake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/check_boleira"
+                android:textColor="@color/colorPrimary"
+                android:textSize="10pt"
+                android:textStyle="bold"
+                android:layout_marginBottom="8pt"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/check_box_hair_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+            <TextView
+                android:id="@+id/check_hair_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/check_cabeleleira"
+                android:textColor="@color/colorPrimary"
+                android:textSize="10pt"
+                android:textStyle="bold"
+                android:layout_marginBottom="8pt"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/check_box_chef"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+            <TextView
+                android:id="@+id/check_chef"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/check_cozinheira"
+                android:textColor="@color/colorPrimary"
+                android:textSize="10pt"
+                android:textStyle="bold"
+                android:layout_marginBottom="8pt"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/check_box_pizza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+            <TextView
+                android:id="@+id/check_pizza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/check_faz_pizza"
+                android:textColor="@color/colorPrimary"
+                android:textSize="10pt"
+                android:textStyle="bold"
+                android:layout_marginBottom="8pt"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/check_box_nails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+            <TextView
+                android:id="@+id/check_nails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/check_manicure"
+                android:textColor="@color/colorPrimary"
+                android:textSize="10pt"
+                android:textStyle="bold"
+                android:layout_marginBottom="8pt"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/check_box_color_hair"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+            <TextView
+                android:id="@+id/check_color_hair"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/check_pinta_cabelo"
+                android:textColor="@color/colorPrimary"
+                android:textSize="10pt"
+                android:textStyle="bold"
+                android:layout_marginBottom="8pt"
+                />
+        </LinearLayout>
 
         <EditText
             android:id="@+id/txt_price_service"
