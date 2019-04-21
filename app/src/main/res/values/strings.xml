@@ -42,4 +42,8 @@
     <string name="link_revenda_produtos">
         <a href="https://www.mulheresempreendedoras.net.br/produtos-para-revenda-por-catalogo/">Como revender produtos?</a>
     </string>
+
+    <string name="link_ideias_trabalho">
+        <a href="https://www.mulheresempreendedoras.net.br/ideias-para-trabalhar-em-casa/">Mais ideias para ganhar dinnheiro em casa</a>
+    </string>
 </resources>

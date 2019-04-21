@@ -20,61 +20,45 @@
         android:layout_marginBottom="30sp"
         />
 
-    <LinearLayout
+    <RelativeLayout
 
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:layout_alignBottom="@+id/txt_question_looking_for"
         >
 
-        <Button
-            android:id="@+id/btn_offer_job"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/btn_offer_service"
-            android:layout_centerHorizontal="true"
-            android:background="@color/btn_color"
-            android:textColor="@color/white"
-            android:layout_marginBottom="20sp"
-            android:padding="20sp"
-            android:textStyle="bold"
-            android:textSize="14sp"
-            android:onClick="registerService"
-            />
+            <Button
+                android:id="@+id/btn_offer_job"
+                android:layout_width="180sp"
+                android:layout_height="200sp"
+                android:background="@mipmap/ic_cadastre_serv"
+                android:layout_marginBottom="10sp"
+                android:layout_marginRight="10sp"
+                android:onClick="registerService"
+                />
 
         <Button
             android:id="@+id/btn_learn_subject"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/btn_learn"
-            android:width="180sp"
-            android:layout_centerHorizontal="true"
-            android:background="@color/btn_color"
-            android:textColor="@color/white"
-            android:padding="20sp"
-            android:layout_marginBottom="20sp"
-            android:textStyle="bold"
-            android:textSize="14sp"
+            android:layout_width="180sp"
+            android:layout_height="200sp"
+            android:background="@mipmap/ic_aprender"
+            android:layout_toRightOf="@id/btn_offer_job"
+            android:layout_marginBottom="10sp"
             android:onClick="learnSubject"
-
             />
+
 
         <Button
             android:id="@+id/btn_search_worker"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/btn_search_person"
-            android:width="180sp"
+            android:layout_width="200sp"
+            android:layout_height="200sp"
             android:layout_centerHorizontal="true"
-            android:background="@color/btn_color"
-            android:textColor="@color/white"
-            android:padding="20sp"
-            android:textStyle="bold"
-            android:textSize="14sp"
+            android:background="@mipmap/ic_buscar_trab"
+            android:layout_below="@id/btn_learn_subject"
+            android:layout_marginBottom="30sp"
             android:onClick="searchWorker"
             />
-    </LinearLayout>
 
+    </RelativeLayout>
 
 </LinearLayout>
