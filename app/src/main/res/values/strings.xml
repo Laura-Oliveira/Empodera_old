@@ -30,7 +30,7 @@
     <string name="txt_phone"> Telefone ex: (81) 99009-8789</string>
     <string name="txt_email">E-mail ex.: maria@gmail.com</string>
     <string name="btn_register_service">Cadastrar</string>
-    
+
     <!-- Strings da tela activity_lean_subject -->
     <string name="txt_title_learn_subject"> Bora Aprender?</string>
     <string name="link_marmitex">
@@ -55,4 +55,11 @@
     <string name="link_ideias_trabalho">
         <a href="https://www.mulheresempreendedoras.net.br/ideias-para-trabalhar-em-casa/">Mais ideias para ganhar dinnheiro em casa</a>
     </string>
+
+    <!-- ======================== API KEY GOOGLE MAPS ========================== -->
+
+    <!--<string name="google_maps_key"> AIzaSyD3SPePLo7ulwZAriB4dvY99CAnB4zevKY </string> -->
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_search_woker">Map</string>
+
 </resources>
