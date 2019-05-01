@@ -31,9 +31,8 @@
                 android:id="@+id/btn_offer_job"
                 android:layout_width="180sp"
                 android:layout_height="200sp"
-                android:background="@mipmap/ic_cadastre_serv"
+                android:background="@mipmap/ic_register_work"
                 android:layout_marginBottom="10sp"
-                android:layout_marginRight="10sp"
                 android:onClick="registerService"
                 />
 
@@ -41,7 +40,7 @@
             android:id="@+id/btn_learn_subject"
             android:layout_width="180sp"
             android:layout_height="200sp"
-            android:background="@mipmap/ic_aprender"
+            android:background="@mipmap/ic_register_work"
             android:layout_toRightOf="@id/btn_offer_job"
             android:layout_marginBottom="10sp"
             android:onClick="learnSubject"
@@ -53,7 +52,7 @@
             android:layout_width="200sp"
             android:layout_height="200sp"
             android:layout_centerHorizontal="true"
-            android:background="@mipmap/ic_buscar_trab"
+            android:background="@mipmap/ic_register_work"
             android:layout_below="@id/btn_learn_subject"
             android:layout_marginBottom="30sp"
             android:onClick="searchWorker"
