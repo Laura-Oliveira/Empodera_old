@@ -7,10 +7,13 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
+    View view;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        view = findViewById(R.id.screen_main);
+        view.setBackgroundColor(getResources().getColor(R.color.color_background));
     }
 
     public void registerService(View view)

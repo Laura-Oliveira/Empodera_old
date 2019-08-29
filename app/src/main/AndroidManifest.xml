@@ -40,10 +40,12 @@
 
         <activity
             android:name=".SearchWorkerActivity"
-            android:label="@string/title_activity_search_woker"></activity>
+            android:label="@string/title_activity_search_woker">
+        </activity>
         <activity android:name=".LearnSubjectActivity" />
         <activity android:name=".RegisterServiceActivity" />
         <activity android:name=".MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

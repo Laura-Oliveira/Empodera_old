@@ -3,15 +3,20 @@ package com.empodera;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.method.LinkMovementMethod;
+import android.view.View;
 import android.widget.TextView;
 
 public class LearnSubjectActivity extends AppCompatActivity {
+
+    View view;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_learn_subject);
 
+        view = findViewById(R.id.screen_learn_subject);
+        view.setBackgroundColor(getResources().getColor(R.color.color_background));
         TextView txtLinkMarmitex = findViewById(R.id.link_marmitex);
         txtLinkMarmitex.setMovementMethod(LinkMovementMethod.getInstance());
 

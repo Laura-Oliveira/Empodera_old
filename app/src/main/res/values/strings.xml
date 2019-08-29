@@ -3,9 +3,9 @@
 
     <!-- Strings da tela activity_main -->
     <string name="what_search">O que está procurando?</string>
-    <string name="btn_search_person">Buscar trabalhad@r</string>
-    <string name="btn_learn">Aprender algo novo</string>
-    <string name="btn_offer_service">Cadastrar seu serviço</string>
+    <string name="btn_search_person">Buscar trabalhador</string>
+    <string name="btn_learn">Aprender</string>
+    <string name="btn_register_work">Cadastrar trabalho</string>
 
     <!-- Opcoes do checkbox -->
     <string name="check_cabeleleira">Cabelereira</string>
