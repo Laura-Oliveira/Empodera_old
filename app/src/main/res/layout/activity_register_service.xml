@@ -26,6 +26,7 @@
             />
         <EditText
             android:id="@+id/txt_name"
+            android:inputType="text"
             android:layout_width="match_parent"
             android:layout_height="45sp"
             android:hint="@string/txt_name"
@@ -36,6 +37,7 @@
 
         <EditText
             android:id="@+id/txt_surname"
+            android:inputType="text"
             android:layout_width="match_parent"
             android:layout_height="45sp"
             android:hint="@string/txt_surname"
@@ -44,14 +46,15 @@
             android:layout_marginBottom="10sp"
             />
 
-        <EditText
+        <TextView
             android:id="@+id/txt_type_service"
             android:layout_width="match_parent"
             android:layout_height="45sp"
-            android:hint="@string/txt_type_service"
-            android:textColorHint="@color/blue"
-            android:background="@color/background_textbox"
-            android:layout_marginBottom="10sp"
+            android:text="@string/txt_type_service"
+            android:textColor="@color/title_main"
+            android:textSize="11pt"
+            android:textStyle="bold"
+            android:layout_marginBottom="5sp"
             />
 
         <LinearLayout
@@ -60,7 +63,7 @@
             android:orientation="horizontal">
 
             <CheckBox
-                android:id="@+id/check_box_lunch"
+                android:id="@+id/checkbox_lunch"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -84,7 +87,7 @@
             android:orientation="horizontal">
 
             <CheckBox
-                android:id="@+id/check_box_cake"
+                android:id="@+id/checkbox_cake"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -108,7 +111,7 @@
             android:orientation="horizontal">
 
             <CheckBox
-                android:id="@+id/check_box_hair_style"
+                android:id="@+id/checkbox_hair_style"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -132,7 +135,7 @@
             android:orientation="horizontal">
 
             <CheckBox
-                android:id="@+id/check_box_chef"
+                android:id="@+id/checkbox_chef"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -180,7 +183,7 @@
             android:orientation="horizontal">
 
             <CheckBox
-                android:id="@+id/check_box_nails"
+                android:id="@+id/checkbox_nails"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -204,7 +207,7 @@
             android:orientation="horizontal">
 
             <CheckBox
-                android:id="@+id/check_box_color_hair"
+                android:id="@+id/checkbox_color_hair"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -222,11 +225,22 @@
                 />
         </LinearLayout>
 
+        <TextView
+            android:id="@+id/title_price_service"
+            android:layout_width="match_parent"
+            android:layout_height="45sp"
+            android:text="@string/txt_price_service"
+            android:textColor="@color/title_main"
+            android:textStyle="bold"
+            android:textSize="11pt"
+            />
+
         <EditText
             android:id="@+id/txt_price_service"
             android:layout_width="match_parent"
             android:layout_height="45sp"
-            android:hint="@string/txt_price_service"
+            android:inputType="numberDecimal"
+            android:hint="@string/txt_hint_price_service"
             android:textColorHint="@color/blue"
             android:background="@color/background_textbox"
             android:layout_marginBottom="10sp"
@@ -246,6 +260,7 @@
             android:id="@+id/txt_group_radio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
             >
             <TextView
                 android:id="@+id/txt_mobility"
@@ -280,24 +295,30 @@
         </RadioGroup>
 
         <TextView
+            android:id="@+id/title_price_ticket"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:textColorHint="@color/blue"
-            android:textColor="@color/white"
+            android:text="@string/txt_price_ticket"
+            android:textColor="@color/title_main"
+            android:textStyle="bold"
+            android:textSize="11pt"
             />
 
-
-        <NumberPicker
+        <EditText
+            android:id="@+id/txt_price_ticket"
             android:layout_width="match_parent"
             android:layout_height="45sp"
+            android:inputType="numberDecimal"
+            android:hint="@string/txt_hint_price_ticket"
+            android:textColorHint="@color/blue"
             android:background="@color/background_textbox"
             android:layout_marginBottom="10sp"
-            android:textColorHint="@color/blue"
             />
 
 
         <EditText
             android:id="@+id/txt_phone"
+            android:inputType="phone"
             android:layout_width="match_parent"
             android:layout_height="45sp"
             android:hint="@string/txt_phone"
@@ -308,6 +329,7 @@
 
         <EditText
             android:id="@+id/txt_email"
+            android:inputType="textEmailAddress"
             android:layout_width="match_parent"
             android:layout_height="45sp"
             android:hint="@string/txt_email"

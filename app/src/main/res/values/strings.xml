@@ -22,13 +22,15 @@
     <string name="txt_surname">Sobrenome</string>
     <string name="txt_type_service"> Tipo de Serviço </string>
     <string name="txt_price_service">Preço do Serviço</string>
+    <string name="txt_hint_price_service">Exemplo: 10</string>
     <string name="txt_address"> Seu Endereço</string>
     <string name="txt_mobility"> Pode ir na casa da pessoa para fazer o serviço?</string>
     <string name="txt_radio_yes"> Sim</string>
     <string name="txt_radio_no">Não</string>
-    <string name="txt_price_transport"> Quanto vai gastar de passagem?</string>
-    <string name="txt_phone"> Telefone ex: (81) 99009-8789</string>
-    <string name="txt_email">E-mail ex.: maria@gmail.com</string>
+    <string name="txt_price_ticket"> Quanto vai gastar de passagem?</string>
+    <string name="txt_hint_price_ticket"> Exemplo: 10</string>
+    <string name="txt_phone"> Exemplo: (81) 99009-8789</string>
+    <string name="txt_email">Exemplo: maria@gmail.com</string>
     <string name="btn_register_service">Cadastrar</string>
 
     <!-- Strings da tela activity_lean_subject -->
@@ -58,7 +60,7 @@
 
     <!-- ======================== API KEY GOOGLE MAPS ========================== -->
 
-    <!--<string name="google_maps_key"> AIzaSyD3SPePLo7ulwZAriB4dvY99CAnB4zevKY </string> -->
+    <string name="google_maps_key"> AIzaSyD3SPePLo7ulwZAriB4dvY99CAnB4zevKY </string>
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_search_woker">Map</string>
 
